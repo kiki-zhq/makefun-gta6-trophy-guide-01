@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Legends — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; 55 trophies</p>
+    <h1>Leonida Legends</h1>
+    <p class="tagline">The offline guide and tracker for every GTA VI trophy — from the first mission to the platinum.</p>
+    <div class="progress-wrap" aria-label="Progress">
+      <div class="progress-numbers"><span id="progressText">0 of 55 earned</span><span id="progressPct">0%</span></div>
+      <div class="progress-bar"><div id="progressFill" class="progress-fill" style="width:0%"></div></div>
+      <p id="gradeCounts" class="grade-counts"></p>
+    </div>
+  </div>
+</header>
+
+<nav class="toolbar" aria-label="Guide controls">
+  <div class="toolbar-row">
+    <label>Grade
+      <select id="gradeFilter">
+        <option value="all">All grades</option>
+        <option value="platinum">Platinum</option>
+        <option value="gold">Gold</option>
+        <option value="silver">Silver</option>
+        <option value="bronze">Bronze</option>
+      </select>
+    </label>
+    <label>Kind
+      <select id="kindFilter">
+        <option value="all">All kinds</option>
+        <option value="story">Story</option>
+        <option value="activity">Activity</option>
+        <option value="collectible">Collectible</option>
+        <option value="combat">Combat</option>
+        <option value="exploration">Exploration</option>
+        <option value="partner">Partner</option>
+        <option value="economy">Economy</option>
+      </select>
+    </label>
+    <label class="check-label"><input type="checkbox" id="missableOnly"> Missable only</label>
+    <label class="check-label"><input type="checkbox" id="hideEarned"> Hide earned</label>
+    <label class="check-label"><input type="checkbox" id="spoilerToggle" checked> Hide story spoilers</label>
+    <input id="searchBox" type="search" placeholder="Search trophies…" aria-label="Search trophies">
+  </div>
+  <div class="toolbar-row">
+    <button id="exportBtn" type="button">Export progress</button>
+    <label class="import-label">Import progress <input id="importInput" type="file" accept="application/json,.json"></label>
+    <button id="resetBtn" type="button">Reset progress</button>
+    <span id="statusLine" class="status" role="status"></span>
+  </div>
+</nav>
+
+<main>
+  <section id="roadmap" class="roadmap" aria-label="Roadmap to the platinum">
+    <h2>Roadmap to the Platinum</h2>
+    <p class="roadmap-intro">Five phases, in order. The story carries you through most of the list; the grind lives in phases three and four; the platinum pops when the last trophy does.</p>
+    <ol class="phases">
+      <li>
+        <h3>Phase 1 — Play the story</h3>
+        <p>Chapters 1–4 and the final mission, plus the named story missions: Gone Fishing, Breakfast Run, The Cartel Heist, Child&rsquo;s Play, Headliners, VCIA Takedown and Operation Savage Glory. This phase earns the platinum&rsquo;s backbone: the four chapter trophies, the seven mission trophies and the gold for the final mission.</p>
+        <p class="phase-trophies">Covers: Just Like Paradise, Paradise Lost, T**s Ass Drug Money, Vice City, Baby!, Top Of The World, Ma, You Gotta Know When to Get Off, Trust, Break the Bank, Family Matters, DWNFALL, Hi-Jacked, Snow Storm.</p>
+      </li>
+      <li>
+        <h3>Phase 2 — Side strands and strangers</h3>
+        <p>Finish the character strands — Andy, Kenton, Billy, Randy, Tyrone — and eight stranger strands across Leonida. Do them as they appear so none is left for the endgame. <strong>Watch the missables here:</strong> Actions Speak Louder (choices made) and Bad Luck, I Guess (second time&rsquo;s the charm) are the only trophies flagged as possibly missable — take decision moments seriously and never rush a second attempt.</p>
+        <p class="phase-trophies">Covers: Road to Rehabilitation, This Was No Boat Accident, The Lone Rider, Supply &amp; Demand, Spin On This!, Strangers &amp; Freaks, Actions Speak Louder, Bad Luck, I Guess.</p>
+      </li>
+      <li>
+        <h3>Phase 3 — Activities and collectibles</h3>
+        <p>The long grind: 250 stunts, gold in all 42 Shooting Range challenges, drone race wins at all 14 locations, 20 different race wins, beating Cal at fishing, one arcade game, 50 challenges, 3 collectible card sets, WAiNK It at 100 locations and meditating at all 18 spots. Start these early and let the counts build as you play.</p>
+        <p class="phase-trophies">Covers: Cunning Stunts, Master of None, The Shootist, Top Fun, Earn Cash, Not Kudos, Baited My Tackle, Stick Fiddler, One Last Thing, Don&rsquo;t Touch My Deck, You WAiNKer!, Positive Mental Attitude.</p>
+      </li>
+      <li>
+        <h3>Phase 4 — Partner, combat and money</h3>
+        <p>Partner jobs (lose a 4-star wanted level together, rob 3 shops back-to-back), combat feats (5 takedowns in one Combat Focus, the undetected jewelry robbery, a gang operation for each of the 9 gangs), the showroom smash and the melee drive-by — plus the money trophies: 5 bank vaults, an armored truck, $250,000 laundered, $100,000 spent, all 8 garages and 10 vehicles registered to the Scooter Bros app.</p>
+        <p class="phase-trophies">Covers: Hot Together, Retail Therapy, Personal Best, Gunslinger, Sneakthief, Pest Control, Capital Offense, Ten Pin, Maximum Withdrawal, A Classic Blitz Play, Dime on the Dollar, Treat Yo Self, Little Boxes, On the Spot.</p>
+      </li>
+      <li>
+        <h3>Phase 5 — Explore, then clean up</h3>
+        <p>Explore all 52 areas of Leonida, discover 100 vehicles, take the unscheduled departure at VCIA, enjoy a cocktail on Ocean Beach and bowl at Kolt &amp; Associates. Keep an eye out for the strange event behind The Truth Is Out There — the third possibly-missable trophy. Then sweep up whatever is left and push the in-game completion stat to 100% for A Long Road. The platinum, Vice Got a Price!, pops with the last trophy.</p>
+        <p class="phase-trophies">Covers: The Goodtime State, Whip It Good, Catch Me If You Can, In The Beginning…, Let&rsquo;s Go Bowling, The Truth Is Out There, Fair Game, Challenging Tank, A Long Road, Vice Got a Price!</p>
+      </li>
+    </ol>
+    <p class="honesty-note">Honesty note: GTA VI is not out yet and no public walkthrough exists. Every guide in this tracker cites the official trophy description, and any step that cannot be verified before launch is marked as such — this guide never invents a precise location and presents it as fact.</p>
+  </section>
+
+  <section id="trophies" class="trophy-section" aria-label="Trophy checklist">
+    <h2>Trophy Checklist</h2>
+    <p id="resultCount" class="result-count"></p>
+    <div id="trophyList" class="trophy-list"></div>
+    <p id="emptyNote" class="empty-note" hidden>No trophies match these filters. Try clearing a filter.</p>
+  </section>
+</main>
+
+<div id="detailOverlay" class="overlay" hidden>
+  <div class="detail" role="dialog" aria-modal="true" aria-labelledby="detailName">
+    <button id="detailClose" type="button" class="detail-close" aria-label="Close detail">&times;</button>
+    <p id="detailGrade" class="detail-grade"></p>
+    <h2 id="detailName"></h2>
+    <p id="detailDesc" class="detail-desc"></p>
+    <p id="detailKind" class="detail-kind"></p>
+    <p id="detailMissable" class="detail-missable"></p>
+    <h3>Guide</h3>
+    <p id="detailGuide" class="detail-guide"></p>
+    <h3>Sources</h3>
+    <ul id="detailSources" class="detail-sources"></ul>
+    <label class="check-label detail-earned"><input type="checkbox" id="detailEarned"> Earned</label>
+  </div>
+</div>
+
+<footer>
+  <p>Leonida Legends — an unofficial fan-made guide. Not affiliated with Rockstar Games. Trophy names, descriptions and grades are the official PlayStation list as published. No official artwork or logos are used.</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
